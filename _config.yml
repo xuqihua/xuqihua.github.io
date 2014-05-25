@@ -1,0 +1,11 @@
+# Site settings
+title: xuqihua' develope blog
+email: qihuaxu@qq.com
+username: xuqihua
+description: "xuqihua is web developer from Beijing China."
+baseurl: ""
+url: "http://xuqihua.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

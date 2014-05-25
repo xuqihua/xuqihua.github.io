@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Welcome to Xu's Blog!"
+date:   2014-05-25 18:06:28
+categories: uncategory
+permalink: /welcome/
+---
+
+This is personal blog of xuqihua, a web developer form Beijing China. 
+Skill in:
+1. PHP
+2. Javascript
+
+Code Below:
+
+{% highlight php %}
+<?php
+print 'Hello Xuqihua';
+?>
+{% endhighlight %}
