@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用vagrant配置开发环境"
-date:   2014-06-28 11:26:
+date:   2014-06-28 11:26
 categories: life
 permalink: /20140626-vagrant/
 ---
@@ -13,7 +13,7 @@ Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境
 5. 打包分享
 
 ##常用命令
-{% highlight shell %}
+{% highlight bash %}
 ;添加
 vagrant box add base
 ;初始化一个配置
