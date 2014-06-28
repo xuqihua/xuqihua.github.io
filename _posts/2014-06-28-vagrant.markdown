@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "使用vagrant配置开发环境"
+date:   2014-06-28 11:26:
+categories: life
+permalink: /20140626-vagrant/
+---
+Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。
+1. 安装virtualbox
+2. 安装vagrant
+3. 添加box
+4. 配置Vagrantfile
+5. 打包分享
+
+##常用命令
+{% highlight shell %}
+;添加
+vagrant box add base
+;初始化一个配置
+vagrant init
+;启动虚拟机
+vagrant up
+;关闭虚拟机
+vagrant halt
+;重启虚拟机
+vagrant reload
+;重新加载配置
+vagrant provision
+{% endhighlight %}
+
